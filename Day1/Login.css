@@ -1,0 +1,84 @@
+/* Login.css */
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("../images/login.webp"); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.login-form {
+    width: 300px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.594); /* Adjust the opacity */
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+.login-form h2 {
+    text-align: center;
+    margin-left: 15px;
+    margin-bottom: 10px; /* Adjust spacing */
+    color: #470158; /* Adjust text color */
+    font-size: 24px; /* Adjust font size */
+}
+
+.login-form p {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    font-size: 18px;
+    font-weight: bolder;
+    color: #43618e;
+    font-family: cursive;
+}
+
+.form-groupl {
+    margin-top: 20px;
+}
+
+.form-groupl label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #470158; /* Adjust label color */
+}
+
+.form-groupl input {
+    width: 100%;
+    padding: 6px; /* Reduce padding to decrease the height */
+    border: 1px solid #ccc; /* Change border color */
+    border-radius: 5px;
+    background-color: #f0f0f0bb; /* Set a subtle color for the input field */
+}
+
+.logbut button[type='submit'] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 25px;
+    background-color: #470158da; 
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px; 
+}
+
+.logbut button[type='submit']:hover {
+    background-color: #0056b3;
+}
+
+.lsignup {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.logoo {
+    position: absolute;
+    margin-left: 15px;
+    margin-top: 25px;
+}
