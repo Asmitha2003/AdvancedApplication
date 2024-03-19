@@ -1,0 +1,30 @@
+
+.stateroom-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+  }
+  
+  .stateroom-button {
+    background-color: #4caf4fd7; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 7px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 8px;
+  }
+  
+  .stateroom-button:hover {
+    background-color: #45a049; /* Darker green */
+  }
+  
+  .stateroom-button:focus {
+    outline: none;
+  }
+  
