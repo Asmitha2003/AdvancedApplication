@@ -1,0 +1,59 @@
+/* ContactPage.css */
+
+.contact-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 55px;
+    background-position: center;
+  }
+  
+  .contact-header {
+    margin-bottom: 30px;
+  }
+  
+  .contact-header h2 {
+    font-size: 30px;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .contact-form {
+    width: 100%;
+    max-width: 500px;
+  }
+  
+  .input-field,
+  .textarea-field {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    background-color: rgba(255, 255, 255, 0.8); /* Add a transparent background for better readability */
+  }
+  
+  .textarea-field {
+    height: 150px;
+  }
+  
+  .submit-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #4a154b;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-button:hover {
+    background-color: #6f0571;
+  }
+  
