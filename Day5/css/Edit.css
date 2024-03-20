@@ -1,0 +1,90 @@
+/* Grey layout container */
+.grey-layout {
+    background-color: rgba(0, 0, 0, 0.1); /* Semi-transparent grey */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Ensure it's behind other elements */
+}
+
+/* Main container */
+.cabin-editing-container-custom {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f0d8d830;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(230, 162, 162, 0.258);
+    margin-left: 330px;
+    margin-top: -550px;
+    position: relative; /* Ensure positioning context for absolute elements */
+}
+
+/* Cabin card */
+.cabin-custom {
+    border: 1px solid #cccccc76;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #ffffffe6;
+    transition: box-shadow 0.3s ease;
+    position: relative; /* Ensure positioning context for absolute buttons */
+}
+
+.cabin-custom:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Cabin title */
+.cabin-title-custom {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+/* Amenities list */
+.amenities-list-custom {
+    list-style-type: none;
+    padding:0;
+    margin-bottom: 15px;
+}
+
+.amenities-list-custom li {
+    margin-bottom: 5px;
+    color: #666;
+    position: relative; /* Ensure positioning context for absolute buttons */
+}
+
+/* Form styles */
+.add-amenity-form-custom,
+.add-cabin-form-custom {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.add-amenity-form-custom input,
+.add-cabin-form-custom input {
+    margin-right: 10px;
+}
+
+/* Links */
+.link {
+    cursor: pointer;
+    color: #007bffb3;
+    margin-right: 0px;
+    margin-left:20px;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.adm{
+    position: absolute;
+    margin-left: 250px;
+    width:1000px;
+    height:1500px;
+}

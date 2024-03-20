@@ -1,0 +1,117 @@
+.register-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #9db58745; 
+    background-image: linear-gradient(to bottom right, #b4c6e181, #ffe6cc54); 
+     
+  }
+
+  .name
+  {
+     position:absolute;
+     font-size: 15px;
+     margin-top: -530px;
+     margin-left: -980px;
+     font-weight: bold;
+     font-family:Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .aqualogo
+  {
+    margin-top: -548px;
+     margin-left: 30px;
+  }
+ 
+  .register-form-container {
+    flex: 1;
+    padding: 20px;
+     /* Adjust margin to move the container slightly to the left */
+  }
+  
+  
+  .register-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #ffffff48; /* Add background color */
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    margin-left: 80px;
+  }
+  
+  .register-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 25px; /* Increase font size */
+    font-family:fantasy;
+    color: #333;
+    padding: 3px; /* Add padding for better spacing */
+    border-radius: 8px; /* Add border radius */
+  }
+  
+  .form-groupr {
+    margin-bottom: 20px;
+    position: relative; /* Ensure relative positioning for absolute icon placement */
+  }
+  
+  .form-groupr input {
+    width: 100%;
+    padding: 10px 30px; /* Increase padding to accommodate the icon */
+    border: none;
+    border-bottom: 1px solid #ccc;
+    background: transparent;
+    font-size: 16px;
+    color: #333;
+    transition: border-bottom-color 0.3s ease;
+    margin-left:10px;
+  }
+  
+  .form-groupr input:focus {
+    border-bottom-color: #3e2c024f;
+    outline: none;
+  }
+  
+  .form-groupr .icon {
+    position: absolute;
+    top: 50%;
+    left: 10px; /* Adjust the position of the icon */
+    transform: translateY(-50%);
+    color: #999; /* Adjust icon color */
+  }
+  
+ 
+  .regbut button[type='submit'] {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    background-color:#470158bd; 
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: bolder;
+  }
+  
+  b.regbut button[type='submit']:hover {
+    background-color: #0056b3;
+  }
+  
+  .login {
+    text-align: center;
+    margin-top:15px;
+  }
+  
+  .login a {
+    color: #007bff;
+  }
+  
+  .reg-image {
+    flex: 1;
+  }
+  
+  .reg-image img {
+    width: 670px;
+    height: 500px;
+    margin-left: -155px;
+  }

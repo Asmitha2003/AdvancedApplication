@@ -1,0 +1,150 @@
+.cab2container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .cab2imageContainer {
+    position: relative;
+    width: 50%;
+  }
+  
+  .reg2Image {
+    width: 100%;
+    box-shadow: 0 0 20px rgb(0, 0, 0); /* Lighter shadow */
+    margin-left: -170px;
+    margin-top:-150px;
+  }
+  
+  .cab2con {
+    position: absolute;
+    margin-top: -220px;
+    margin-left: 160px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: rgba(227, 227, 227, 0.975);
+    font-weight: medium;
+    z-index: 1; /* Ensure it's above the image */
+  }
+  
+  .cab2overlay {
+    position: absolute;
+    margin-top:-345px;
+    left: 0;
+    width: 630px;
+    height: 345px;
+    background-color: rgba(0, 0, 0, 0.347);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: -170px;
+  }
+  
+  .amenitiesListContainer2 {
+    position: absolute;
+    top: 0;
+    margin-left: 600px;
+    margin-top: 195px; /* Position to the right */
+    width: 300px;
+    height: 345px;
+    padding: 20px;
+    background-color: rgba(191, 197, 198, 0.418);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.42);
+  }
+  
+  .amenitiesListContainer2 h4 {
+    margin-top: -8px;
+    margin-left: 28px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  .amenitiesList2 {
+    list-style: none;
+    margin-top: 30px;
+    margin-left: 2px;
+  }
+  
+  .amenitiesList2 li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .amenitiesList2 li img {
+    margin-right: 10px;
+    width: 25px;
+    height: 25px;
+  }
+  
+  .viewAllButton2 {
+    position: absolute;
+    margin-top: 150px;
+    margin-left:120px;
+    transform: translate(-50%, -50%); /* Center the button */
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .imagesPopup2 {
+    position: fixed;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(19, 19, 19, 0.936); /* Darker background */
+    border-radius: 20px;
+    z-index: 999; /* Ensure it's above other content */
+    padding: 20px; /* Add padding for spacing */
+    width: 400px; /* Set width as needed */
+    max-height: 80vh; /* Limit max height */
+    overflow-y: auto; /* Add vertical scrollbar if needed */
+    box-sizing: border-box; /* Include padding and border in the width */
+    display: flex;
+    flex-direction: column; /* Ensure children are stacked vertically */
+  }
+  
+  .imagesPopup2 img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px; /* Add margin between images */
+  }
+  
+  .closeButton2 {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: transparent;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 24px; /* Adjust icon size */
+    z-index: 1000; /* Ensure it's above other content */
+  }
+  .bookNowButton {
+    margin-top: 240px;
+    margin-left:20px; /* Add some margin between View All and Book Now buttons */
+    background-color: #007bffa4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  .bookNowButton a{
+    text-decoration: none;
+    color: white;
+  }
+  
+  .bookNowButton:hover {
+    background-color: #0056b3;
+  }
+  

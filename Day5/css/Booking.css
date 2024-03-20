@@ -1,0 +1,92 @@
+/* BookingPage.css */
+
+.booking-page {
+  display: flex;
+  margin-top:55px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh; /* Ensure the page takes up at least the full viewport height */
+  background-size: cover; /* Ensure the background image covers the entire container */
+  background-position: center; /* Center the background image */
+}
+
+.booking-container {
+  width: 50%;
+  background-color: #f9f9f9;
+  padding: 30px;
+  border-radius: 10px;
+  margin-top: -50px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.booking-details {
+  margin-top: 20px;
+}
+
+.booking-details h2 {
+  margin-bottom: 20px;
+  color: #333;
+  margin-left: 0px;
+    margin-top:-10px;
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+.input-group input,
+.input-group select {
+  width: 45%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+.input-group select {
+    width: calc(45% - 10px); /* Adjusted width to accommodate the arrow */
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+    background: linear-gradient(to right, transparent 100%, #333 95%) no-repeat;
+    background-position: calc(100% - 15px) center;
+    background-size: 10px 10px;
+  }
+
+  .total-price {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #333;
+  }
+
+.total-price label {
+  font-weight: bold;
+}
+
+.total-price span {
+  font-weight: bold;
+  color: #91b88f;
+  margin-left: 5px;
+}
+
+.button {
+  width: 200px; /* Ensure the button takes up the full width */
+  padding: 12px 24px;
+  background-color: #6f0571;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-left: 200px;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
